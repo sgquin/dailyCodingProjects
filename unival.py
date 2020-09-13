@@ -39,18 +39,6 @@ def numberUnivalAtOrBelow(node):
         number += 1
     return number
 
-#def areChildrenEqual(node: Node):
-#    
-#    if node.left is None and node.right is None:
-#        return True
-#    elif node.left is None:
-#        return False
-#    elif node.right is None:
-#        return False
-#    if node.left.val == node.right.val:
-#        return True
-#    return False
-#
 
 def areDescendentsEqual(node):
     if node.left is None: 
